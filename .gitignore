@@ -1,0 +1,80 @@
+# =========================
+# System files
+# =========================
+.DS_Store            # macOS
+Thumbs.db            # Windows
+desktop.ini          # Windows
+*.swp                # Vim temporary files
+*.bak                # Backup copies
+*.tmp                # Temporary files in general
+*.asv                # MATLAB temporary files
+
+# =========================
+# Virtual environments
+# =========================
+venv/                # Python (virtualenv)
+*.env                # Sensitive environment variables (such as API keys)
+
+# =========================
+# Compiled and binary files
+# =========================
+*.o
+*.out
+*.class
+*.exe
+*.pyc
+pycache/             # Python bytecode cache
+.julia/              # Julia package cache
+.rhistory            # R session history
+.Rproj.user/         # RStudio files
+
+# =========================
+# Compressed files
+# =========================
+*.tar.gz
+*.tar.xz
+*.zip
+Data\FrontsCHL\*.zip
+Data\FrontsSST\*.zip
+
+# =========================
+# Heavy data files
+# =========================
+Data\Monthly\*.mat
+Data\Weekly\*.mat
+Data\Yearly\*.mat
+
+# =========================
+# Node.js
+# =========================
+node_modules/        # npm libraries
+dist/                # Files generated in builds
+build/               # Build folder (React, etc.)
+
+# =========================
+# Java
+# =========================
+*.jar
+target/
+
+# =========================
+# Logs
+# =========================
+*.log
+log/
+
+# =========================
+# Jupyter Notebooks (optional)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VSCode / IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Git
+# =========================
+*.orig           # Archivos creados al resolver conflictos
