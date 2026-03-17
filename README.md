@@ -17,6 +17,7 @@ Results: Analysis scripts and outputs used to generate figures and results
 Manuscript: Published pdf
 
 ## Notes
-- The SST (◦C) images used in this study were downloaded from Copernicus Marine Environment Monitoring Service (CMEMS, http://marine. copernicus.eu/; Buongiorno Nardelli et al., 2013).
+- The SST (◦C) images used in this study were downloaded from Copernicus Marine Environment Monitoring Service (CMEMS, http://marine.copernicus.eu/; Buongiorno Nardelli et al., 2013).
 - The satellite ocean colour data used in this study were downloaded from the GlobColour Project (https://www.globcolour.info/).
 - Processed datasets (weekly and monthly composites) are not included in this repository due to their size but can be generated using the provided scripts.
+- Scripts may require adaptation of local paths and data directories before execution.
